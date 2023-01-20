@@ -1,0 +1,75 @@
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.App .input {
+  background-color: #ededed;
+  width: 300px;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.App .input h1 {
+  font-size: 20px;
+  margin: 0px;
+}
+
+.App .input span {
+  font-size: 12px;
+  color: grey;
+}
+
+.App .input input {
+  height: 45px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid grey;
+  background-color: transparent;
+  outline: none;
+}
+
+.App .input input:disabled {
+  background-color: lightgray;
+  cursor: not-allowed;
+}
+
+.App .input sub {
+  color: red;
+}
+
+.App .input button {
+  margin-top: 10px;
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  height: 45px;
+  border-radius: 5px;
+  background-color: #3087f3;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.App .input .note {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.App .input .note p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.App .input .note sub {
+  margin-bottom: 5px;
+  padding-left: 5px;
+  display: block;
+}
