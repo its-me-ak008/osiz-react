@@ -16,7 +16,7 @@ export default function App() {
       name: "Aswin test",
       description: "Test Transaction",
       image: "https://global-uploads.webflow.com/5e157547d6f791d34ea4e2bf/6087f2b060c7a92408bac811_logo.svg",
-      order_id: "order_L6X7XoDOHVyght",
+      order_id: "order_L6XYiSUu6QhPUE",
       handler: (res) => {
         console.log(res);
       },
